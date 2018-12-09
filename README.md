@@ -2,10 +2,10 @@
 
 This is an empty react app template, it includes for your ultimate pleasure:
 
-- [/] React app compiled with webpack/babel etc
-- [/] [Jest](https://jestjs.io/)
-- [/] [Storybook](https://storybook.js.org/) including Jest coverage view
-- [/] [Sass](https://sass-lang.com/)
+- [x] React app compiled with webpack/babel etc
+- [x] [Jest](https://jestjs.io/)
+- [x] [Storybook](https://storybook.js.org/) including Jest coverage view
+- [x] [Sass](https://sass-lang.com/)
 
 ## Dev instructions
 
