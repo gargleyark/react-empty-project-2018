@@ -1,0 +1,12 @@
+# Node Modules
+/node_modules
+
+# Distribution 
+/dist
+
+# Test output
+/coverage
+*.jest-test-results.json
+
+# Compiled CSS
+*.css
