@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --x --recursive --watch",
-    "watch-test": "jest --watch",
+    "watch-test": "jest --json --outputFile=.jest-test-results.json --watchAll --coverage",
     "test": "jest --json --outputFile=.jest-test-results.json || true"
   },
   "author": "",
