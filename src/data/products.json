@@ -1,0 +1,393 @@
+[
+  {
+    "_id": "5c0efa4a48804fdc1ee98dfd",
+    "index": 0,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Alford Shoes",
+    "categories": ["incididunt", "amet"],
+    "onSale": false,
+    "price": 263.11,
+    "quantity": 21,
+    "tags": ["incididunt", "ad", "proident"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4a942460cad48a4234",
+    "index": 1,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Holt Shoes",
+    "categories": ["exercitation", "adipisicing"],
+    "onSale": true,
+    "price": 156.97,
+    "quantity": 14,
+    "tags": ["eu", "exercitation", "sit"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ae9e0aaf36e31d657",
+    "index": 2,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Hart Shoes",
+    "categories": ["ex", "excepteur"],
+    "onSale": false,
+    "price": 147.14,
+    "quantity": 22,
+    "tags": ["minim", "occaecat", "aliquip"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4a94c3db5d13d8b801",
+    "index": 3,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Duffy Shoes",
+    "categories": ["officia", "elit"],
+    "onSale": true,
+    "price": 399.83,
+    "quantity": 44,
+    "tags": ["sit", "nostrud", "nostrud"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4aea7943714d5f2afc",
+    "index": 4,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Perez Shoes",
+    "categories": ["occaecat", "do"],
+    "onSale": true,
+    "price": 131.97,
+    "quantity": 23,
+    "tags": ["magna", "fugiat", "enim"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ad47bd5b7c2d2a125",
+    "index": 5,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Fitzgerald Shoes",
+    "categories": ["quis", "ex"],
+    "onSale": true,
+    "price": 362.63,
+    "quantity": 61,
+    "tags": ["eu", "ex", "irure"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4a9e7d9c6d5ba381e5",
+    "index": 6,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Bridges Shoes",
+    "categories": ["adipisicing", "Lorem"],
+    "onSale": false,
+    "price": 200.63,
+    "quantity": 24,
+    "tags": ["id", "laboris", "tempor"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ab89d888bdd61f2bf",
+    "index": 7,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Singleton Shoes",
+    "categories": ["dolore", "in"],
+    "onSale": false,
+    "price": 346.69,
+    "quantity": 56,
+    "tags": ["irure", "aliqua", "duis"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ab618b2aa4d14645b",
+    "index": 8,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Alvarado Shoes",
+    "categories": ["in", "nostrud"],
+    "onSale": true,
+    "price": 74.57,
+    "quantity": 15,
+    "tags": ["sint", "est", "consectetur"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4aa6fb311e30f8c106",
+    "index": 9,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Bond Shoes",
+    "categories": ["irure", "eu"],
+    "onSale": true,
+    "price": 22.28,
+    "quantity": 7,
+    "tags": ["laborum", "sit", "laboris"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4a785d8ee5496ea105",
+    "index": 10,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Griffith Shoes",
+    "categories": ["in", "nostrud"],
+    "onSale": false,
+    "price": 364.12,
+    "quantity": 35,
+    "tags": ["amet", "et", "deserunt"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4abf681cf7876cd42b",
+    "index": 11,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Dale Shoes",
+    "categories": ["et", "ea"],
+    "onSale": false,
+    "price": 361.83,
+    "quantity": 8,
+    "tags": ["non", "laborum", "labore"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4aaa215968b37aa0d9",
+    "index": 12,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Combs Shoes",
+    "categories": ["deserunt", "sunt"],
+    "onSale": true,
+    "price": 251.24,
+    "quantity": 59,
+    "tags": ["enim", "ea", "proident"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ac899567d5ef2aa6b",
+    "index": 13,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Scott Shoes",
+    "categories": ["exercitation", "ex"],
+    "onSale": false,
+    "price": 293.83,
+    "quantity": 1,
+    "tags": ["sint", "dolor", "mollit"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4a1cceefe83d97e5e7",
+    "index": 14,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Bradley Shoes",
+    "categories": ["elit", "ea"],
+    "onSale": true,
+    "price": 13.23,
+    "quantity": 34,
+    "tags": ["do", "ullamco", "excepteur"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ae023599310219c51",
+    "index": 15,
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "name": "Mccoy Shoes",
+    "categories": ["id", "duis"],
+    "onSale": false,
+    "price": 27.35,
+    "quantity": 35,
+    "tags": ["ipsum", "Lorem", "adipisicing"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "_id": "5c0efa4ae102fc0bad0e27d0",
+    "index": 16,
+    "isActive": true,
+    "picture": "http://placehold.it/32x32",
+    "name": "Sampson Shoes",
+    "categories": ["officia", "sunt"],
+    "onSale": false,
+    "price": 52.06,
+    "quantity": 15,
+    "tags": ["consequat", "ut", "enim"],
+    "relatedProducts": [
+      {
+        "id": 0
+      },
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ]
+  }
+]
