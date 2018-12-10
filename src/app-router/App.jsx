@@ -12,6 +12,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route path={'/'} exact render={() => <Home />} />
+          <Route path={'/listing'} exact render={() => <Home />} />
         </Switch>
       </BrowserRouter>
     );
