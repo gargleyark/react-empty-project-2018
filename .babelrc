@@ -1,6 +1,4 @@
 {
-    "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react"
-    ]
+  "ignore": ["<rootDir>/node_modules/"],
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
