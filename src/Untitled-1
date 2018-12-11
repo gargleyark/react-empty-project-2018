@@ -1,0 +1,24 @@
+ React.createElement('p', null, "I am a stateless component");
+
+ render() {
+     return (
+         <p>
+            I am a stateless component
+         </p>
+     )
+ }
+
+ <MyComponent text="hello" />
+
+
+
+ class MyComponent {
+    render() {
+        const { text } = this.props
+        return (
+            <p>
+                { text }
+            </p>
+        )
+    }
+ }
