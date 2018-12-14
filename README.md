@@ -11,10 +11,12 @@ This is an empty react app template, it includes for your ultimate pleasure:
 
 - Clone the repo
 - Run `npm install`
-- Run `npm run storybook`
 - Run `npm run watch-css`
 - Run `npm run watch-test`
+- Run `npm run storybook`
 - Run `npm start`
+
+You need to run the commands in this order to generate the correct css and test files to be consumed by storybook and the app.
 
 ### Storybook
 
