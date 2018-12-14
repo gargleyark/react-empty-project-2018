@@ -1,22 +1,44 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
-module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: path.join(__dirname, '/dist'),
-    filename: 'index-bundle.js'
+const config = {
+  resolve: {
+    extensions: ['.js', '.jsx']
   },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
+        use: {
+          loader: 'babel-loader'
+        }
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        exclude: /node_modules/,
+        use: [
+          { loader: 'style-loader' },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true,
+              sourceMap: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]'
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              ident: 'postcss',
+              plugins: () => [
+                autoprefixer({
+                  browsers: ['> 1%', 'last 2 versions']
+                })
+              ]
+            }
+          }
+        ]
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
@@ -24,7 +46,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: '[name].[ext]',
-            outputPath: '/src/'
+            outputPath: '../src/'
           }
         }
       },
@@ -33,10 +55,7 @@ module.exports = {
         use: [{ loader: 'url-loader?limit=10000' }, { loader: 'img-loader' }]
       }
     ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
-  ]
+  }
 };
+
+module.exports = config;
